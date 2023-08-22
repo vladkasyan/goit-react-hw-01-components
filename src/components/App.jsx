@@ -21,10 +21,10 @@ export const App = () => {
         stats={user.stats}
       />
     
-      {/* <Statistics 
+       <Statistics 
         title='UPLOAD STATS'
         stats={data}
-      /> */}
+      /> 
 
       <Wrapper>
         <FriendList
