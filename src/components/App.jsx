@@ -3,11 +3,11 @@ import data from '../components/data/data.json';
 import friends from '../components/data/friends.json';
 import transactions from '../components/data/transactions.json';
 
-import  Profile  from './Profile/Profile';
-import  Statistics  from './Statistics/Statistics';
-import  FriendList  from './FriendList/FriendList';
-import  TransactionHistory  from './TransactionHistory/TransactionHistory';
-import  {Container, Wrapper}  from './App.module';
+import { Profile } from './Profile/Profile';
+import { Statistics } from './Statistics/Statistics';
+import { FriendList } from './FriendList/FriendList';
+import { TransactionHistory } from './TransactionHistory/TransactionHistory';
+import { Container, Wrapper } from './App.module';
 
 
 export const App = () => {
