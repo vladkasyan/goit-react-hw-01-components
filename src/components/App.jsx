@@ -9,6 +9,7 @@ import { FriendList } from './FriendList/FriendList';
 import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 import { Container, Wrapper } from './App.module';
 
+browserslist.clearCaches()
 
 export const App = () => {
   return (
