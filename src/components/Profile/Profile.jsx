@@ -2,8 +2,7 @@ import PropTypes from 'prop-types'
 
 import {ProfileWrapper, Description, AvatarImg, AvatarName, AvatarTag, AvatarLocation, ProfileStats, StatsLabel, StatsQuantity} from './Profile.module.jsx';
 
-
-const Profile = ({username, tag, location, avatar, stats:{followers,views,likes}}) => {
+export const Profile = ({username, tag, location, avatar, stats:{followers,views,likes}}) => {
      return  (
     <ProfileWrapper>
     <Description>
